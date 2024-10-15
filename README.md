@@ -1,4 +1,4 @@
-
+Deploy project LINK ----https://stayhubbb.vercel.app/
 
 ## Overview
 
@@ -91,6 +91,30 @@ This project is a full-stack web application developed  using the MERN stack (Mo
   ![](client/public/assets/manage.png)
 
 - **Responsive Design:** The application is designed to be responsive and work seamlessly across different devices.
+
+ 
+Property Recommendation System
+
+
+property recommendation system that suggests properties to users based on their browsing and search history. The system is built with a Flask server for the recommendation model and an Express server for the frontend interaction.
+
+Model Overview
+The recommendation system uses a content-based filtering approach. It analyzes the user's past interactions (browsing history, searches) with properties and provides personalized property suggestions.
+
+1. Data Collection
+Two main datasets are used:
+Property Dataset: This dataset contains over 100 property records with attributes such as property ID, location, price, type, and size.
+User Search History Dataset: A dataset with over 100 users  each having records of the properties they have viewed or searched for in the past
+
+Recommendation Model
+The model utilizes content-based filtering The properties are represented by their features such as location, price, and type. When a user views or searches for a property the model tries to recommend properties with similar attributes.
+Based on a user's previous interactions with properties (e.g., similar location, price range, or type) the model calculates similarity scores and suggests relevant properties
+
+ Machine Learning Approach
+
+ Cosine similarity is applied to find the most similar properties based on user preferences.
+Dummy data was generated to simulate browsing history and property datasets to fine-tune the model.
+
 
   
 
