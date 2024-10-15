@@ -68,14 +68,14 @@ const LoginPage = () => {
           <button className="primary my-4">Login</button>
         </form>
 
-        <div className="mb-4 flex w-full items-center gap-4">
+        {/* <div className="mb-4 flex w-full items-center gap-4">
           <div className="h-0 w-1/2 border-[1px]"></div>
           <p className="small -mt-1">or</p>
           <div className="h-0 w-1/2 border-[1px]"></div>
-        </div>
+        </div> */}
 
         {/* Google login button */}
-        <div className="flex h-[50px] justify-center">
+        {/* <div className="flex h-[50px] justify-center">
           <GoogleLogin
             onSuccess={(credentialResponse) => {
               handleGoogleLogin(credentialResponse.credential);
@@ -86,7 +86,7 @@ const LoginPage = () => {
             text="continue_with"
             width="350"
           />
-        </div>
+        </div> */}
 
         <div className="py-2 text-center text-gray-500">
           Don't have an account yet?{' '}
