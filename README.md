@@ -129,7 +129,4 @@ Dummy data was generated to simulate browsing history and property datasets to f
 - **React.js:** JavaScript library for building the user interface.
 - **Node.js:** JavaScript runtime environment for executing server-side code.
 - **Tailwind CSS:** A utility-first CSS framework
--
 - **JWT:** JSON Web Tokens for secure user authentication.
--
-- **Google Cloud:** For gmail based authentication
